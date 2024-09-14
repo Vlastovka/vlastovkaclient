@@ -1,0 +1,345 @@
+/* 
+ This file is from Vlastovka client distribution 
+ Copyright (C) Vlastovka Client
+*/
+
+/* Nadpis + horní vyběr (Home, Contact, download*/
+.Upper {
+    position: absolute;
+    align-items: center;
+    transition: 2s;
+}
+
+.imagine-up {
+    position: absolute;
+    width: 1815px;
+    opacity: 1;
+    background-color: rgb(41, 38, 39);
+    height: 65px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    z-index: 2;
+    transition: 2s;
+}
+
+
+.icon-home {
+    position: relative;
+    top: 65px;
+    width: 1815px;
+    z-index: 1;
+    transition: 2s;
+
+}
+
+body,html {
+    margin-top: 0;
+    padding: 0;
+    margin-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Nadpis {
+    position: absolute;
+    text-decoration-color: rgb(0, 0, 0);
+    z-index: 10;
+    left: 15%;
+    top: -5px;    
+    transition: 500ms;
+    font-size: 35px;
+    top: -10px;
+    text-decoration: none;
+    color: white;
+    text-align: inherit;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.Vlastovak-nadpis {
+    position: relative;
+    top: 20px;
+    width: 55px;
+    transition: 2s;
+}
+
+.Contact {
+    position: absolute;
+    color: white;
+    z-index: 15;
+    font-size: 35px;
+    top: 12px;
+    left: 77%;
+    text-decoration: none;
+}
+
+/* Download*/
+
+.Download {
+    position: absolute;
+    z-index: 10;
+    top: 13px;
+    left: 65%;
+    font-size: 35px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    transition: 2s;
+}
+
+/* Hlavní nadpis */
+
+.H-nadpis {
+    position: absolute;
+    top: 12%;
+    z-index: 11;
+    left: 41%;
+    font-size: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 2s;
+}
+
+.H-Vlastovak-nadpis {
+    position: relative;
+    width: 100px;
+    top: 20px;
+    transition: 2s;
+}
+
+/* Download H-nadpis */
+
+.HD-nadpis {
+    position: absolute;
+    top: 12%;
+    z-index: 11;
+    left: 37%;
+    font-size: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 2s;
+}
+
+
+/* Cheats */
+
+
+.ch-important {
+    position: absolute;
+    display: inline-block;
+    top: 40px;
+    left: 600px;
+}
+.Features {
+    position: absolute;
+    z-index: 19;
+    width: 1815px;
+    height: 100px;
+    background-color: rgb(214, 214, 214);
+    top: 64%;
+}
+
+.Features-N {
+    position: absolute;
+    top: 0px;
+    left: 45%;
+}
+
+.F-Cheats {
+    position: absolute;
+    top: 0px;
+    left: 15%;
+    z-index: 15;
+    font-size: 20px;
+}
+
+.cheats {
+    position: absolute;
+    width: 1815px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    z-index: 20;
+    top: 373px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+
+
+.C-L1 {
+    position: relative;
+    width: 150px;
+    height: 800px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    top: 60px;
+    left: 270px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.C-L2 {
+    position: relative;
+    width: 200px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    top: -735px;
+    left:500px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.C-L3 {
+    position: relative;
+    width: 200px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    top: -1535px;
+    left:700px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.C-L4 {
+    position: relative;
+    width: 200px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    top: -2335px;
+    left:900px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.C-L5 {
+    position: relative;
+    width: 200px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    top: -3135px;
+    left:1100px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.C-L6 {
+    position: relative;
+    width: 200px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    top: -3935px;
+    left:1300px;
+
+}
+
+.Hack-icon {
+    position: absolute;
+    top: 24px;
+    height: 30px;
+    left: 430px;
+}
+
+/* Commands */
+
+.Commands {
+    position: absolute;
+    z-index: 40;
+    width: 1815px;
+    height: 360px;
+    background-color: rgb(211, 211, 211);
+    top: 850px;
+}
+
+.C-1 {
+    position: absolute;
+    width: 150px;
+    height: 260px;
+    left: 10px;
+    background-color: rgb(211, 211, 211);
+    z-index: 100;
+    top: 60px;
+    left: 15%;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.CM-Nadpis {
+    position: absolute;
+    left: 15%;
+}
+
+.CMD-Slash {
+    position: absolute;
+    top: 20px;
+    height: 40px;
+    left: 500px;
+}
+
+.C-2 {
+    position: absolute;
+    width: 150px;
+    height: 260px;
+    left: 10px;
+    background-color: rgb(211, 211, 211);
+    z-index: 101;
+    top: 60px;
+    left: 27%;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.C-3 {
+    position: absolute;
+    width: 150px;
+    height: 260px;
+    left: 10px;
+    background-color: rgb(211, 211, 211);
+    z-index: 101;
+    top: 60px;
+    left: 38%;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.C-4 {
+    position: absolute;
+    width: 150px;
+    height: 260px;
+    left: 10px;
+    background-color: rgb(211, 211, 211);
+    z-index: 101;
+    top: 60px;
+    left: 49%;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.C-5 {
+    position: absolute;
+    width: 150px;
+    height: 260px;
+    left: 10px;
+    background-color: rgb(211, 211, 211);
+    z-index: 101;
+    top: 60px;
+    left: 61%;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Copyright */
+
+.Copyright-t {
+    position: absolute;
+    top: 0px;
+    z-index: 15;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 43%;
+    color: white;
+  }
+  
+  .CP-Box {
+      position: absolute;
+      width: 1815px;
+      height: 50px;
+      background-color: rgb(0, 0, 0);
+      top: 1200px;
+      z-index: 300;
+  }
