@@ -3,21 +3,15 @@
  Copyright (C) Vlastovka Client
 */
 
-.Upper {
-    position: absolute;
-    align-items: center;
-    transition: 2s;
-}
 
 .imagine-up {
     position: absolute;
-    width: 1815px;
+    width: 100%;
     opacity: 1;
     background-color: rgb(41, 38, 39);
     height: 65px;
     box-shadow: 0px 0px 50px rgb(0, 0, 0);
     z-index: 2;
-    transition: 2s;
 }
 
 body,html {
@@ -72,12 +66,10 @@ body,html {
 }
 
 .icon-home {
-    position: relative;
-    top: 65px;
-    width: 1815px;
+  position: absolute;
     z-index: 1;
-    transition: 2s;
-
+    top: 65px;
+    width: 100%;
 }
 
 .HD-nadpis {
@@ -94,7 +86,7 @@ body,html {
 
 .V-1-21-1 {
     position: absolute;
-    width: 1800px;
+    width: 99%;
     height: 100px;
     background-color: #7f7979;
     background-image: linear-gradient(180deg, #7f7979 0%, #946d23 50%, #79b938 100%);
@@ -133,7 +125,7 @@ body,html {
     width: 250px;
     height: 75px;
     background-color: rgb(211, 211, 211);
-    left: 1500px;
+    left: 82.5%;
     top: 10px;
     border-radius: 10px;
     cursor: pointer;
@@ -197,7 +189,7 @@ background: linear-gradient(0deg, rgba(82,221,34,1) 0%, rgba(233,7,122,1) 96%);*
 
 .V-1-20-6 {
     position: absolute;
-    width: 1800px;
+    width: 99%;
     height: 100px;
     background: rgb(82,221,34);
     background: linear-gradient(0deg, rgba(82,221,34,1) 0%, rgba(233,7,122,1) 96%);
@@ -236,7 +228,7 @@ background: linear-gradient(0deg, rgba(82,221,34,1) 0%, rgba(233,7,122,1) 96%);*
     width: 250px;
     height: 75px;
     background-color: rgb(211, 211, 211);
-    left: 1500px;
+    left: 82.5%;
     top: 10px;
     border-radius: 10px;
     cursor: not-allowed;
@@ -245,9 +237,8 @@ background: linear-gradient(0deg, rgba(82,221,34,1) 0%, rgba(233,7,122,1) 96%);*
 }
 
 .D-LINK-1-20-6 {
-    position: relative;
+    position: absolute;
     top: 8px;
-    left: 95px;
     font-size: 20px;
     text-decoration: none;
     color: black;
@@ -548,7 +539,7 @@ background: linear-gradient(0deg, rgba(82,221,34,1) 0%, rgba(233,7,122,1) 96%);*
   
 .V-1-19-4 {
     position: absolute;
-    width: 1800px;
+    width: 99%;
     height: 100px;
     background: rgb(34,221,34);
     background: linear-gradient(0deg, rgba(34,221,34,1) 0%, rgba(7,167,233,1) 100%);
@@ -587,7 +578,7 @@ background: linear-gradient(0deg, rgba(82,221,34,1) 0%, rgba(233,7,122,1) 96%);*
     width: 250px;
     height: 75px;
     background-color: rgb(211, 211, 211);
-    left: 1500px;
+    left: 82.5%;
     top: 10px;
     border-radius: 10px;
     cursor: not-allowed;
@@ -809,7 +800,7 @@ background-image: linear-gradient(180deg, #ffffff 0%, #4fd8d2 50%, #9e9393 100%)
 
  .V-1-18-2 {
     position: absolute;
-    width: 1800px;
+    width: 99%;
     height: 100px;
     top: 730px;
     background-color: #ffffff;
@@ -851,7 +842,7 @@ background-image: linear-gradient(180deg, #ffffff 0%, #4fd8d2 50%, #9e9393 100%)
     width: 250px;
     height: 75px;
     background-color: rgb(211, 211, 211);
-    left: 1500px;
+    left: 82.5%;
     top: 10px;
     border-radius: 10px;
     cursor: not-allowed;
@@ -896,7 +887,7 @@ background-image: linear-gradient(180deg, #ffffff 0%, #4fd8d2 50%, #9e9393 100%)
 .Snow-bg {
     position: relative;
     opacity: 0.3;
-    width: 1800px;
+    width: 100%;
     height: 100px;
     border-radius: 10px;
 }
@@ -905,7 +896,7 @@ background-image: linear-gradient(180deg, #ffffff 0%, #4fd8d2 50%, #9e9393 100%)
 
 .V-1-17-1 {
     position: absolute;
-    width: 1800px;
+    width: 99%;
     height: 100px;
     top: 870px;
     background-color: #56575e;
@@ -948,7 +939,7 @@ background-image: linear-gradient(45deg, #56575e 0%, #c5b6c3 46%, #7f7b6e 100%);
     width: 250px;
     height: 75px;
     background-color: rgb(211, 211, 211);
-    left: 1500px;
+    left: 82.5%;
     top: 10px;
     border-radius: 10px;
     cursor: not-allowed;
@@ -993,7 +984,7 @@ background-image: linear-gradient(45deg, #56575e 0%, #c5b6c3 46%, #7f7b6e 100%);
 .Gray-particle {
     position: relative;
     opacity: 0.3;
-    width: 1800px;
+    width: 100%;
     height: 100px;
     border-radius: 10px;
 }
@@ -1012,7 +1003,7 @@ background-image: linear-gradient(45deg, #56575e 0%, #c5b6c3 46%, #7f7b6e 100%);
   
   .CP-Box {
       position: absolute;
-      width: 1815px;
+      width: 100%;
       height: 50px;
       background-color: rgb(0, 0, 0);
       top: 1050px;
