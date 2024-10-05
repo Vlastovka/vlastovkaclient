@@ -4,12 +4,6 @@
 */
 
 /* Nadpis + horní vyběr (Home, Contact, download*/
-.Upper {
-    position: absolute;
-    align-items: center;
-    transition: 2s;
-}
-
 .imagine-up {
     position: absolute;
     width: 100%;
